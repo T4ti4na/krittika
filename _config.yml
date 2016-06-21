@@ -3,15 +3,15 @@
 # ----------------------- #
 
 url: http://yoursite.com
-title: Your Awesome Site
+title: Krittika- The Astronomy Club of IITB
 email: your-email@domain.com
 author: Your Name
 description: > # "Write an awesome description for your new site here. 
   You can edit this line in _config.yml. It will appear in your document 
   head meta (for Google search results) and in your feed.xml site 
   description.
-copyright: 'Copyright &copy; 2015 Your Name. All Rights Reserved.'
-credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+copyright: 'Copyright &copy; 2016 Krittika. All Rights Reserved.'
+credits: 'Credits: <ul> <li> <a href = https://www.facebook.com/chinmay0301> Chinmay Talegaonkar</a> </li> <li> <a href = https://www.facebook.com/profile.php?id=100010041307477> Tanya Choudhary</a> </li> </ul> '
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -26,9 +26,8 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: twitter
-    url: https://twitter.com/SBootstrap
+
   - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
-  - title: linkedin
-    url: 
+    url: https://github.com/T4ti4na/krittika
+  - title: facebook
+    url: https://www.facebook.com/groups/krittika.iitb/
