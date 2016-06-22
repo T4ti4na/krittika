@@ -1,33 +1,74 @@
-# ----------------------- #
-#      Main Configs       #
-# ----------------------- #
+# Site
+title:              Moon
+bio:                'Minimal, one column jekyll theme.'
+description:        "Moon is a minimal, one column jekyll theme for your blog."
+reading_time:       true
+words_per_minute:   200
+logo:               'assets/img/logo.png'
+background:         'assets/img/placeholder-big.jpg'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+locale:             en_US
+url:                http://taylantatli.me/Moon
 
-url: http://yoursite.com
-title: Krittika- The Astronomy Club of IITB
-email: your-email@domain.com
-author: Your Name
-description: > # "Write an awesome description for your new site here. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
-  description.
-copyright: 'Copyright &copy; 2016 Krittika. All Rights Reserved.'
-credits: 'Credits: <ul> <li> <a href = https://www.facebook.com/chinmay0301> Chinmay Talegaonkar</a> </li> <li> <a href = https://www.facebook.com/profile.php?id=100010041307477> Tanya Choudhary</a> </li> </ul> '
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
 
-# ----------------------- #
-#    Jekyll & Plugins     #
-# ----------------------- #
+# Comments
+disqus_shortname:   taylantatli
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+# Social
+# if you don't have any of social below, comment the line.
+#google:
+  #plus:            #username
+  #analytics:
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+#email:
+twitter:            username
+facebook:           username
+github:             username
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#linkedin:          username
+#xing:              username
+instagram:          username
+#lastfm:            username
+#tumblr:            username
+#pinterest:         username
+#foursquare:        username
+steam:              username
+#dribbble:          username
+#youtube:           username
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
 
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
 
-social:
+jekyll-mentions:
+    base_url: https://github.com
 
-  - title: github
-    url: https://github.com/T4ti4na/krittika
-  - title: facebook
-    url: https://www.facebook.com/groups/krittika.iitb/
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
